@@ -1,0 +1,36 @@
+# WordPress core
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# WordPress uploads
+wp-content/uploads/
+
+# WordPress config (sensitive)
+wp-config.php
+
+# WordPress plugins (ติดตั้งใหม่ได้)
+wp-content/plugins/
+
+# Node modules
+node_modules/
+.npm/
+
+# WP-Now data
+.wp-now/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+
+# Environment
+.env
+.env.local

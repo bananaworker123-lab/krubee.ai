@@ -1,11 +1,11 @@
-# WordPress core
+# WordPress core (root level only)
 wp-admin/
 wp-includes/
-wp-*.php
-xmlrpc.php
-index.php
-license.txt
-readme.html
+/wp-*.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
 
 # WordPress uploads
 wp-content/uploads/

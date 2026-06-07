@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM wordpress:6.4-php8.1-apache
 
 # Copy custom theme
 COPY wp-content/themes/creator-academy /var/www/html/wp-content/themes/creator-academy
